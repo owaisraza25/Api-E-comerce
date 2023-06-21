@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #1d99f8;
+}
+
+.topBar{
+
+    height: 80px;
+    background-color: aqua;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+  
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
+    margin: 0 auto;
+}
+
+.my-nav{
+    background: #0083e6;
+
+}
+
+/* .my-nav ul li{
+    font-size: 20px;
+    font-weight: 400;
+} */
+
+.my-nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 3px 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 500;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    color: white !important;
+    transition: .5s;
+}
+
+
+.search-section{
+  
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__input {
+    background-color: #f4f2f2;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 40em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+}
+ 
+.search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.search__button {
+  
+    border: none;
+    margin-top: .1em;
+}
+  
+  .search__button:hover {
+    cursor: pointer;
+}
+  
+.search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    margin-left: -10px;
+}
+
+.ctg-btn{
+    background-color: white !important;
+    border: 1px solid #b1b1b1 !important;
+    margin: 10px;
+    text-transform: capitalize;
+    border-radius: 50px !important;
+}
+
+.ctg-btn:focus{
+    background-color: #0083e6 !important;
+    color:white !important;
+}
+
+#categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 0 !important;
+    /* background: linear-gradient(rgb(7, 49, 101), rgb(255, 255, 255)) !important; */
+    border-color: rgba(197, 197, 197, 0.589) !important;
+    box-shadow: 4px 1px 5px    rgb(107, 107, 107);
+}
+
+.card-img-top{
+    height: 200px;
+}
